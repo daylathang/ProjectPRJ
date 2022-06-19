@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="update diagram db">
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup2.html" afterDir="false" />
+    <list default="true" id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="update mockup screen for student">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram.docx" beforeDir="false" afterPath="$PROJECT_DIR$/diagram.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <workItem from="1654442569721" duration="912000" />
       <workItem from="1654748046196" duration="1249000" />
       <workItem from="1655215355135" duration="1041000" />
-      <workItem from="1655634377603" duration="3364000" />
+      <workItem from="1655634377603" duration="5539000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1654438943255</created>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655634589322</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update mockup screen for student">
+      <created>1655649036392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655649036392</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="update diagram db" />
-    <option name="LAST_COMMIT_MESSAGE" value="update diagram db" />
+    <MESSAGE value="update mockup screen for student" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mockup screen for student" />
   </component>
 </project>
