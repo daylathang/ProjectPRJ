@@ -4,37 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="update mockup screen for student and update db">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup4.html" afterDir="false" />
+    <list default="true" id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="update mock up administrator">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectPRJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectPRJ.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPRJ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoSpring/demo1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -132,7 +117,11 @@
       <workItem from="1654748046196" duration="1249000" />
       <workItem from="1655215355135" duration="1041000" />
       <workItem from="1655634377603" duration="5539000" />
-      <workItem from="1655822441934" duration="4793000" />
+      <workItem from="1655822441934" duration="4841000" />
+      <workItem from="1655859232551" duration="2607000" />
+      <workItem from="1656250974834" duration="860000" />
+      <workItem from="1656252132771" duration="229000" />
+      <workItem from="1656253007013" duration="649000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1654438943255</created>
@@ -183,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655649036392</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update mock up administrator">
+      <created>1655827326611</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655827326611</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +207,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="update diagram db" />
     <MESSAGE value="update mockup screen for student" />
-    <option name="LAST_COMMIT_MESSAGE" value="update mockup screen for student" />
+    <MESSAGE value="update mock up administrator" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mock up administrator" />
   </component>
 </project>
