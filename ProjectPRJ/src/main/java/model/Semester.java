@@ -19,7 +19,7 @@ public class Semester {
     private Integer id;
 
     @Column(name = "sename", nullable = false, length = 50)
-    private String sename;
+    private String name;
 
     @Column(name = "\"from\"", nullable = false)
     private LocalDate from;
@@ -27,35 +27,4 @@ public class Semester {
     @Column(name = "\"to\"", nullable = false)
     private LocalDate to;
 
-    public LocalDate getTo() {
-        return to;
-    }
-
-    public void setTo(LocalDate to) {
-        this.to = to;
-    }
-
-    public LocalDate getFrom() {
-        return from;
-    }
-
-    public void setFrom(LocalDate from) {
-        this.from = from;
-    }
-
-    public String getSename() {
-        return sename;
-    }
-
-    public void setSename(String sename) {
-        this.sename = sename;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
 }

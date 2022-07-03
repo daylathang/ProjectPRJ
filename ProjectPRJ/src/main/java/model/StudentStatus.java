@@ -19,6 +19,9 @@ public class StudentStatus {
     @Column(name = "ssid", nullable = false)
     private Integer id;
 
+    @Column(name = "ssname", nullable = false, length = 50)
+    private String ssname;
+
     public Integer getId() {
         return id;
     }
@@ -27,5 +30,4 @@ public class StudentStatus {
         this.id = id;
     }
 
-    //TODO Reverse Engineering! Migrate other columns to the entity
 }

@@ -19,13 +19,10 @@ public class MarkCategory {
     @Column(name = "cid", nullable = false)
     private Integer id;
 
-    public Integer getId() {
-        return id;
-    }
+    @Column(name = "cname", nullable = false, length = 150)
+    private String name;
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    @Column(name = "weight", nullable = false)
+    private Integer weight;
 
-    //TODO Reverse Engineering! Migrate other columns to the entity
 }
