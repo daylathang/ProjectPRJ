@@ -1,8 +1,16 @@
 package model;
 
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 @Table(name = "Account")
 public class Account {
     @Id
@@ -18,6 +26,5 @@ public class Account {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "rid", nullable = false)
     private Role rid;
-
 
 }

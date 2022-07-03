@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
-       xmlns:th="http://www.thymeleaf.org">
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -16,7 +16,7 @@
             <th>Group</th>
             <th>Status</th>
         </tr>
-        <tr th:each="student : ${listStudent}">
+        <tr th:each="student : ${students}">
             <td th:text="${student.getScode}"></td>
             <td th:text="${student.getSname()}"></td>
             <td th:text="${student.getDid()}"></td>

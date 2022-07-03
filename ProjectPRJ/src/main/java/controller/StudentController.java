@@ -10,7 +10,7 @@ import service.StudentService;
 public class StudentController {
 
     @Autowired
-    private  StudentService studentService;
+    private StudentService studentService;
 
     @GetMapping("/")
     public String viewHomePage(Model model) {

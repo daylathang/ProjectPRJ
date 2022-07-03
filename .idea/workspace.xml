@@ -4,34 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="update some little things">
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Mark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/MarkCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Semester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/StudentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/SubjectStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="update db diagram and add entity">
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/embedded/MarkID.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/mockup4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Mark.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Mark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/MarkCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/MarkCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Semester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Semester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/StudentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/StudentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/SubjectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/SubjectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram.docx" beforeDir="false" afterPath="$PROJECT_DIR$/diagram.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +37,8 @@
       <list>
         <option value="com.haulmont.jpb.JpaRepository" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="com.haulmont.jpb.JpaEntity" />
       </list>
     </option>
@@ -135,6 +129,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SQLScriptSettings">
+    <option name="matrix">
+      <map>
+        <entry key="MSSQL.Drop" value="IfExists=1" />
+      </map>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -153,7 +154,10 @@
       <workItem from="1655859232551" duration="2607000" />
       <workItem from="1656250974834" duration="860000" />
       <workItem from="1656252132771" duration="229000" />
-      <workItem from="1656253007013" duration="7632000" />
+      <workItem from="1656253007013" duration="7737000" />
+      <workItem from="1656419769505" duration="1895000" />
+      <workItem from="1656464061969" duration="3583000" />
+      <workItem from="1656859786246" duration="6002000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1654438943255</created>
@@ -218,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656253804514</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update db diagram and add entity">
+      <created>1656260796655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656260796655</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +259,7 @@
     <MESSAGE value="update mockup screen for student" />
     <MESSAGE value="update mock up administrator" />
     <MESSAGE value="update some little things" />
-    <option name="LAST_COMMIT_MESSAGE" value="update some little things" />
+    <MESSAGE value="update db diagram and add entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="update db diagram and add entity" />
   </component>
 </project>
