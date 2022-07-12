@@ -5,34 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="update db diagram and some small things">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_139.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_5_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_popper_js_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/ProjectPRJApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/roles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPRJ/src/test/java/com/project/RoleRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/MarkCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/MarkCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Semester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Semester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/StudentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/StudentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/embedded/MarkID.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/embedded/EmbeddedID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Mark.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Mark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/MarkCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/MarkCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Semester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Semester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/StudentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/StudentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/model/SubjectStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/model/SubjectStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/java/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/java/com/project/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPRJ/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPRJ/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="com.haulmont.jpb.JpaRepository" />
-        <option value="Interface" />
-        <option value="HTML File" />
-        <option value="Class" />
         <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -58,6 +100,9 @@
       </map>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2AA3Idpk629UDcw3UMwyBTFugAn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,40 +111,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlserver" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "service.view.auto.scroll.to.source": "true",
+    "spring.configuration.checksum": "7416ee2de812fe2a42742b40d6f84956"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.project.controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.project" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProjectPRJApplication">
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+    <configuration name="generated-requests | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" requestIdentifier="#6" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="mockup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectPRJ/demo/src/main/mockup.html" useBuiltInWebServerPort="true">
+    <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.DemoApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
@@ -108,12 +183,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectPRJApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.ProjectPRJApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.All in generated-requests" />
-        <item itemvalue="HTTP Request.generated-requests#2" />
-        <item itemvalue="HTTP Request.generated-requests#1" />
-        <item itemvalue="JavaScript Debug.mockup.html" />
+        <item itemvalue="Spring Boot.ProjectPRJApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #7" />
+        <item itemvalue="HTTP Request.generated-requests | #6" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+        <item itemvalue="HTTP Request.generated-requests#4" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +227,9 @@
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9e143fef-7c8f-44b0-bbc2-4f4d2d8006a9" name="Changes" comment="" />
@@ -145,7 +250,15 @@
       <workItem from="1656253007013" duration="7737000" />
       <workItem from="1656419769505" duration="1895000" />
       <workItem from="1656464061969" duration="3583000" />
-      <workItem from="1656859786246" duration="6388000" />
+      <workItem from="1656859786246" duration="6473000" />
+      <workItem from="1657038857899" duration="11958000" />
+      <workItem from="1657165583230" duration="3659000" />
+      <workItem from="1657212164597" duration="422000" />
+      <workItem from="1657213529973" duration="804000" />
+      <workItem from="1657214833893" duration="428000" />
+      <workItem from="1657629080359" duration="2418000" />
+      <workItem from="1657631900144" duration="456000" />
+      <workItem from="1657636490516" duration="7487000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1654438943255</created>
@@ -224,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656866218078</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update db diagram and some small things">
+      <created>1656866525274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656866525274</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +366,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
