@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1px">
+    <tr align="center">
+        <th>Student Code</th>
+        <th>Student Name</th>
+        <th>Department</th>
+        <th>Group</th>
+        <th>Status</th>
+    </tr>
+    <tbody>
+    <th:block th:each="students:${students}">
+        <tr>
+            <td th:text="*{students.code}"></td>
+            <td th:text="*{students.name}"></td>
+            <td th:text="*{students.did.name}"></td>
+            <td th:text="*{students.gid.gname}"></td>
+            <td th:text="*{students.ssid.name}"></td>
+            <th><a href="mockup4.html">Detail</a></th>
+        </tr>
+    </th:block>
+    </tbody>
+    </table>
+</table>
+</body>
+</html>

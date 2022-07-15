@@ -1,14 +1,13 @@
 package com.project.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 
-@Entity
+@Entity(name = "Subject")
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 @Table(name = "Subject")
 public class Subject {
@@ -20,12 +19,16 @@ public class Subject {
     @Column(name = "code", nullable = false, length = 150)
     private String code;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "did", nullable = false)
-    private Department did;
+    @JoinColumn(name = "did", referencedColumnName="did",nullable = false)
+    private Integer did;
 
     @Column(name = "suname", nullable = false, length = 1500)
     private String name;
 
-
+    public Subject(Integer id, String code, Integer did, String name) {
+        this.id = id;
+        this.code = code;
+        this.did = did;
+        this.name = name;
+    }
 }

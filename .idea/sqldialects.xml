@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/7b4049a1-2329-4d2b-bbe1-f9e796a333ba/console.sql" dialect="TSQL" />
+  </component>
+</project>

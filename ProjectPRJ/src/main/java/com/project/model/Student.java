@@ -18,10 +18,10 @@ public class Student {
     private Integer id;
 
     @Column(name = "scode", nullable = false, length = 50)
-    private String scode;
+    private String code;
 
     @Column(name = "sname", nullable = false, length = 150)
-    private String sname;
+    private String name;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "did", nullable = false)
@@ -39,6 +39,8 @@ public class Student {
     @JoinColumn(name = "ssid", nullable = false)
     private StudentStatus ssid;
 
+
     public Student() {
+
     }
 }

@@ -7,9 +7,9 @@ import java.util.List;
 
 @Service
 public interface StudentService {
-    List<Student> getAllStudents();
+    List<Student> findAllStudents();
 
-    Student getStudent(Integer id);
+    Student findStudentById(Integer id);
 
-    List<Student> getAllStudentsByGroup(Integer id);
+    List<Student> findAllStudentsByGroup(Integer id);
 }

@@ -22,11 +22,7 @@ public class RoleController {
         this.roleService = roleService;
     }
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String HomepageView(){
-        return "index";
-    }
-    @RequestMapping(value = {"roles", "ditmethyme"}, method = RequestMethod.GET)
+    @RequestMapping(value = {"roles"}, method = RequestMethod.GET)
     public String roleListing(Model model) {
         List<Role> roleList = roleService.getAllRole();
         model.addAttribute("roleList", roleList);

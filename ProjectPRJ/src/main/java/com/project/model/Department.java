@@ -25,6 +25,8 @@ public class Department {
     @OneToMany(mappedBy = "did")
     private List<Student> students;
 
+    @OneToMany(mappedBy = "did")
+    private List<Subject> subjects;
     public Integer getId() {
         return id;
     }
